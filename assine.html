@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jobison</title>
+    
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="shortcut icon" type="image/png" href="https://bit.ly/2ODcued">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>  
+    <script type="text/javascript">
+             function validar(){
+               var senha = form.senha.value;
+               var csenha = form.csenha.value;
+
+              if(senha == "" || senha.length <6){
+                  alert('Preencha o campo senha com no mínimo 6 digitos');
+                  form.senha.focus();
+                  return false;
+              }
+             }
+    </script>
+    
+    
+  </head>
+
+  <body>
+
+    <header class="layout-cabecalho-assine  layout-cabecalho--home-assine">
+      <div class="container">
+
+        <nav class="navegacao">
+          <!--<img src="img/logo.jpg" width="120" height="62" alt="Jobison"> -->
+
+          <div class="navegacao__menu">
+            <button class="botao-chaveador  js-botao-chaveador"></button>
+
+            <ul class="menu  js-menu">
+              <li class="menu__item">
+                <a class="btn btn-primary" href="index.html">Inicio</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <header class="layout-cabecalho">
+      <div class="container">
+
+        <nav class="navegacao  navegacao--assinatura">
+          <!--<a href="index.html"><img src="logo.jpg" width="100" height="35" alt="Jobison" /></a>-->
+        </nav>
+        
+      </div>
+    </header>
+
+    <main class="layout-assinatura">
+      <div class="container">
+
+        <form name="form" action="#" method="post">
+          <h1 class="titulo-formulario">Sua assinatura do Jobison</h1>
+
+          <div class="grupo-entrada">
+            <label for="nome-completo">Nome completo</label>
+            <input id="nome-completo" name="nomeCompleto" type="text" class="form-control" required>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="cpf">CPF</label>
+                <input id="cpf" name="cpf" type="number" class="form-control" required>
+              </div>
+            </div>
+
+            
+            
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="data-nascimento">Data de nascimento</label>
+                <input id="data-nascimento" name="dataNascimento" type="month" class="form-control" required>
+              </div>
+            </div>
+          </div>
+
+  
+          <div class="grupo-entrada">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" class="form-control" required>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado" class="form-control" required>
+                  <option>Selecione</option>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                 <option value="TO">Tocantins</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="elo">Seu elo</label>
+                <select id="elo" class="form-control" required>
+                  <option>Selecione</option>
+                  <option value="2">Bronze IV</option>
+                  <option value="3">Bronze III</option>
+                  <option value="3">Bronze II</option>
+                  <option value="3">Bronze I</option>
+                  <option value="3">Prata IV</option>
+                  <option value="3">Prata III</option>
+                  <option value="3">Prata II</option>
+                  <option value="3">Prata I</option>
+                  <option value="3">Ouro IV</option>
+                  <option value="3">Ouro III</option>
+                  <option value="3">Ouro II</option>
+                  <option value="3">Ouro I</option>
+                  <option value="3">Platina IV</option>
+                  <option value="3">Platina III</option>
+                  <option value="3">Platina II</option>
+                  <option value="3">Platina I</option>
+                  <option value="3">Diamante IV</option>
+                  <option value="3">Diamante III</option>
+                  <option value="3">Diamante II</option>
+                  <option value="3">Diamante I</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" name="senha" class="form-control" required>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="grupo-entrada">
+                <label for="confirmacao-senha">Confirme a senha</label>
+                <input id="confirmacao-senha" type="password" name="csenha" class="form-control" required>
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: 20px">
+            <input type="submit" value="Assinar Jobison" class="botao  botao--principal" onclick="return validar()">
+          </div>
+        </form>
+
+      </div>
+    </main>
+
+    <footer class="layout-rodape">
+      <div class="container">
+        <p>&copy; Jobison. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
