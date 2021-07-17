@@ -44,8 +44,6 @@
 ## About The Project
 
 [![About View][About View]](https://github.com/SilasRodrigues19/jobison-services.vercel.app)
-[![About View2][About View2]](https://github.com/SilasRodrigues19/jobison-services.vercel.app)
-[![About View3][About View3]](https://github.com/SilasRodrigues19/jobison-services.vercel.app)
 
 
 
@@ -107,7 +105,5 @@ Project Link: [https://github.com/SilasRodrigues19/jobison-services.vercel.app](
 [issues-url]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/issues
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/jobison-services.vercel.app.svg?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/blob/master/LICENSE
-[About View]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/blob/master/img/jobison.png
-[About View2]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/blob/master/img/jobison2.png
-[About View3]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/blob/master/img/jobison3.png
+[About View]: https://github.com/SilasRodrigues19/jobison-services.vercel.app/blob/master/img/preview.gif
 
